@@ -1,0 +1,2708 @@
+-- This file was generated at discord.gg/syncrypt
+
+return {
+    protos = {
+        [0] = {
+            strings = {
+                [0] = "GetWavesSkills",
+                [1] = "xpcall", -- x2
+                [2] = "Auto Reload Blades", -- x3
+                [3] = "Default", -- x19
+                [4] = "identifyexecutor",
+                [5] = "Fluxus",
+                [6] = "Severe", -- x2
+                [7] = "Aberrant", -- x2
+                [8] = "List", -- x7
+                [9] = "Missions", -- x15
+                [10] = "FindLobby",
+                [11] = "ApplyMissionModifiers",
+                [12] = "GetCurrentSession",
+                [13] = "IsInSession",
+                [14] = ">i8", -- x4
+                [15] = "CreateSession",
+                [16] = "InitCreateSession",
+                [17] = "getrawmetatable",
+                [18] = "getnamecallmethod",
+                [19] = "setreadonly",
+                [20] = "newcclosure",
+                [21] = "checkcaller",
+                [22] = "HttpGet",
+                [23] = "https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/zzzz.lua",
+                [24] = "settings",
+                [25] = "UserSettings",
+                [26] = "setmetatable",
+                [27] = "Oddball",
+                [28] = "Tag", -- x12
+                [29] = "+{x}% XP/Gold with every titan having +50.0% more stats",
+                [30] = "Description", -- x12
+                [31] = "Injury Prone",
+                [32] = "StarterPlayer",
+                [33] = "RbxAnalyticsService",
+                [34] = "AnalyticsService",
+                [35] = "Mission Map", -- x3
+                [36] = "Title", -- x24
+                [37] = "Shiganshina", -- x3
+                [38] = "Trost",
+                [39] = "Main", -- x13
+                [40] = "SettingsFarm", -- x10
+                [41] = "CreateToggle", -- x9
+                [42] = "_DEBUG",
+                [43] = "__namecall", -- x2
+                [44] = "Nightmare",
+                [45] = "+{x}% XP/Gold at the risk of only abnormals/crawlers appearing",
+                [46] = "CreateSection",
+                [47] = "Auto Select Character", -- x3
+                [48] = "Misc", -- x4
+                [49] = "Auto Farm", -- x3
+                [50] = "Farm", -- x5
+                [51] = "Objective", -- x6
+                [52] = "Skirmish", -- x3
+                [53] = "Breach",
+                [54] = "UI", -- x3
+                [55] = "CreateBind",
+                [56] = "HitNape",
+                [57] = "AttackTitan",
+                [58] = "GetWavesCanVote",
+                [59] = "GetService", -- x2
+                [60] = "RenderSettings",
+                [61] = "UserGameSettings",
+                [62] = "PlaceId",
+                [63] = "WaitForChild", -- x6
+                [64] = "GET",
+                [65] = "Humanoid", -- x2
+                [66] = "+{x}% XP/Gold with the risk of having higher injury chance",
+                [67] = "Chronic Injuries",
+                [68] = "+{x}% XP/Gold with the risk of not being able to heal injuries",
+                [69] = "Fog",
+                [70] = "+{x}% XP/Gold with the risk of not being able to see far away",
+                [71] = "Check Shadow Ban",
+                [72] = "Auto loot skills box",
+                [73] = "Waves", -- x8
+                [74] = "Auto Loot Skills Box", -- x2
+                [75] = "Easy", -- x2
+                [76] = "Normal", -- x3
+                [77] = "Hard", -- x3
+                [78] = "wait", -- x5
+                [79] = "Actions", -- x3
+                [80] = "Lobby", -- x2
+                [81] = "CreateButton", -- x3
+                [82] = "Create Session",
+                [83] = "Difficulty", -- x5
+                [84] = "Attack Titan", -- x3
+                [85] = "Raids", -- x11
+                [86] = "Auto Vote Start", -- x3
+                [87] = "VirtualInputManager",
+                [88] = "ReplicatedFirst",
+                [89] = "StarterGui",
+                [90] = "TeleportService",
+                [91] = "__index",
+                [92] = "Character", -- x5
+                [93] = "POST",
+                [94] = "GetObjectiveBoat",
+                [95] = "GetNapeTitan",
+                [96] = "+{x}% XP/Gold if beaten under {xx:xx}, else -{x}% XP/Gold",
+                [97] = "Boring",
+                [98] = "IsDied",
+                [99] = "IsColossalPhase",
+                [100] = "GetTitan",
+                [101] = "http_request",
+                [102] = "GetMainPlayerGui",
+                [103] = "GetGasInPlayer",
+                [104] = "GetGasTank",
+                [105] = "RefillGas",
+                [106] = "RefillBlades",
+                [107] = "HasSheath",
+                [108] = "game", -- x5
+                [109] = "Players", -- x2
+                [110] = "LocalPlayer", -- x2
+                [111] = "isfile",
+                [112] = "writefile",
+                [113] = "readfile",
+                [114] = "FindFirstChild", -- x3
+                [115] = "CoreGui", -- x2
+                [116] = "Farm Delay", -- x3
+                [117] = "Min", -- x2
+                [118] = "Max", -- x2
+                [119] = "Settings", -- x11
+                [120] = "Banana Cat Hub", -- x5
+                [121] = "No Memories",
+                [122] = "+{x}% XP/Gold for every memory you have unlocked",
+                [123] = "getgenv", -- x5
+                [124] = "Key", -- x4
+                [125] = "ReloadBlades",
+                [126] = "GetChest",
+                [127] = "CanPressFinishChest",
+                [128] = "Session", -- x3
+                [129] = "Auto Retry", -- x3
+                [130] = "GetSkipGUI",
+                [131] = "VoteSkipTrailer",
+                [132] = "time", -- x2
+                [133] = "Destroy UI",
+                [134] = "spawn",
+                [135] = "-{x}% XP/Gold for no abnormals/crawlers spawning",
+                [136] = "Simple",
+                [137] = "-{x}% XP/Gold with every titan having -20.0% less stats",
+                [138] = "GetGameInterfaceGui",
+                [139] = "GetGameTitleScreen",
+                [140] = "Camera",
+                [141] = "CharacterAdded",
+                [142] = "Connect",
+                [143] = "StartLobby",
+                [144] = "Assets",
+                [145] = "Remotes",
+                [146] = "assert",
+                [147] = "Key is missing, please enter key",
+                [148] = "GetBoostedMap",
+                [149] = "IsLobby",
+                [150] = "IsRaidBoss",
+                [151] = "GetAllNearbyTitans",
+                [152] = "Movement", -- x2
+                [153] = "CreateDropdown", -- x7
+                [154] = "GetBladeLeft",
+                [155] = "NoSheathBlades",
+                [156] = "Slot Letter", -- x3
+                [157] = "GetWorkspaceWaves",
+                [158] = "FindFirstChildWhichIsA", -- x5
+                [159] = "PlayerGui",
+                [160] = "Mission Modifiers",
+                [161] = "Terrain",
+                [162] = "Mission Difficulty",
+                [163] = "GetPosition",
+                [164] = "CreateSlider", -- x2
+                [165] = "Farm Height (Teleport Y)",
+                [166] = "SoundService",
+                [167] = "VirtualUser",
+                [168] = "TweenService",
+                [169] = "HttpService",
+                [170] = "Auto Create Session (when you turn on auto farm)",
+                [171] = "Auto Create Session", -- x2
+                [172] = "Auto Skip Introduce", -- x3
+                [173] = "PressKeyEvent",
+                [174] = "request", -- x3
+                [175] = "VoteSkipWaves",
+                [176] = "IsColossalRaid",
+                [177] = "GetUnClimbable",
+                [178] = "GetWSObjective",
+                [179] = "Farm Height", -- x2
+                [180] = "-AOTR.json",
+                [181] = "No Skills",
+                [182] = "+{x}% XP/Gold for every skill you have equipped",
+                [183] = "/",
+                [184] = "IsR15Humanoid",
+                [185] = "CheckDistance",
+                [186] = "CheckZXDistance",
+                [187] = "FreezeCharacter",
+                [188] = "GetNearest",
+                [189] = "requests",
+                [190] = "next",
+                [191] = "Vector2",
+                [192] = "Vector3",
+                [193] = "CFrame",
+                [194] = "ReplicatedStorage",
+                [195] = "Lighting",
+                [196] = "CollectionService",
+                [197] = "UserInputService",
+                [198] = "RetryTheMission",
+                [199] = "GetWavesObjective",
+                [200] = "IsSkipVisible",
+                [201] = "Search",
+                [202] = "ShadowBan",
+                [203] = "LastHit",
+                [204] = "GasTank",
+                [205] = "warn",
+                [206] = "con cac ba may",
+                [207] = "A", -- x3
+                [208] = "Workspace",
+                [209] = "RunService",
+                [210] = "IsLoaded", -- x2
+                [211] = "Auto Choose Depend On Boosted Map", -- x3
+                [212] = " - AOTR by Tanny",
+                [213] = "Desc", -- x2
+                [214] = "GetWavesSkillCrateBox",
+                [215] = "HasPickedUpWavesCrateBox",
+                [216] = "ipairs", -- x2
+                [217] = "JobId",
+                [218] = "Name",
+                [219] = "Get",
+                [220] = "Post",
+                [221] = "print",
+                [222] = "[Banana Cat] AOTR Loaded",
+                [223] = "cloneref",
+                [224] = "getconnections",
+                [225] = "isfolder",
+                [226] = "makefolder",
+                [227] = "Female Titan",
+                [228] = "Colossal Titan",
+                [229] = "Select Modifiers",
+                [230] = "Apply Modifiers",
+                [231] = "http",
+                [232] = "CreatePage",
+                [233] = "Page_Name",
+                [234] = "Page_Title",
+                [235] = "CreateMain",
+                [236] = "IsClient",
+                [237] = "Toggle UI Key",
+                [238] = "KeyCode",
+                [239] = "RightControl",
+                [240] = "JSONEncode",
+                [241] = "ExploitReq",
+                [242] = "No Perks",
+                [243] = "+{x}% XP/Gold for every perk you have equipped",
+                [244] = "Docks",
+                [245] = "Stohess",
+                [246] = "Chapel",
+                [247] = "SettingsWaves", -- x3
+                [248] = "GuiService",
+                [249] = "Debris",
+                [250] = "Stats",
+                [251] = "Glass Cannon",
+                [252] = "+{x}% XP/Gold with the risk of only having 1 HP",
+                [253] = "Time Trial",
+                [254] = "TextChatService",
+                [255] = "ChatVersion", -- x2
+                [256] = "LegacyChatService",
+                [257] = "load",
+                [258] = "TeleportLobby",
+                [259] = "IsLobbyLeader",
+                [260] = "RobloxNotification",
+                [261] = "syn", -- x2
+                [262] = "typeof",
+                [263] = "Enum",
+                [264] = "loadstring",
+                [265] = "type",
+                [266] = "task",
+                [267] = "tick",
+                [268] = "pairs",
+                [269] = "Forest",
+                [270] = "Outskirts",
+                [271] = "Utgard",
+                [272] = "B",
+                [273] = "C",
+                [274] = "CreateNoti",
+                [275] = "AOTR loaded UI",
+                [276] = "ShowTime",
+                [277] = "HumanoidRootPart", -- x2
+                [278] = "Armored Titan",
+                [279] = "Random",
+                [280] = "User Data Service: NULL (main)",
+                [281] = "HumanoidChangeState",
+                [282] = "Backpack",
+                [283] = "PlayerScripts",
+            },
+            booleans = {
+                [0] = false, -- x7
+                [1] = true, -- x10
+            },
+            proto_references = {
+                [0] = { proto = 1 },
+                [1] = { proto = 2 },
+                [2] = { proto = 3 },
+                [3] = { proto = 4 },
+                [4] = { proto = 5 },
+                [5] = { proto = 6 },
+                [6] = { proto = 7 },
+                [7] = { proto = 8 },
+                [8] = { proto = 9 },
+                [9] = { proto = 10 },
+                [10] = { proto = 11 },
+                [11] = { proto = 12 },
+                [12] = { proto = 13 },
+                [13] = { proto = 14 },
+                [14] = { proto = 15 },
+                [15] = { proto = 16 },
+                [16] = { proto = 17 },
+                [17] = { proto = 18 },
+                [18] = { proto = 19 },
+                [19] = { proto = 20 },
+                [20] = { proto = 21 },
+                [21] = { proto = 22 },
+                [22] = { proto = 23 },
+                [23] = { proto = 24 },
+                [24] = { proto = 25 },
+                [25] = { proto = 26 },
+                [26] = { proto = 27 },
+                [27] = { proto = 28 },
+                [28] = { proto = 29 },
+                [29] = { proto = 30 },
+                [30] = { proto = 31 },
+                [31] = { proto = 32 },
+                [32] = { proto = 33 },
+                [33] = { proto = 34 },
+                [34] = { proto = 35 },
+                [35] = { proto = 36 },
+                [36] = { proto = 37 },
+                [37] = { proto = 38 },
+                [38] = { proto = 39 },
+                [39] = { proto = 40 },
+                [40] = { proto = 41 },
+                [41] = { proto = 42 },
+                [42] = { proto = 43 },
+                [43] = { proto = 44 },
+                [44] = { proto = 45 },
+                [45] = { proto = 46 },
+                [46] = { proto = 47 },
+                [47] = { proto = 48 },
+                [48] = { proto = 49 },
+                [49] = { proto = 50 },
+                [50] = { proto = 51 },
+                [51] = { proto = 52 },
+                [52] = { proto = 53 },
+                [53] = { proto = 54 },
+                [54] = { proto = 55 },
+                [55] = { proto = 56 },
+                [56] = { proto = 57 },
+                [57] = { proto = 58 },
+                [58] = { proto = 59 },
+                [59] = { proto = 60 },
+                [60] = { proto = 61 },
+                [61] = { proto = 62 },
+                [62] = { proto = 63 },
+                [63] = { proto = 64 },
+                [64] = { proto = 65 },
+                [65] = { proto = 66 },
+                [66] = { proto = 67 },
+                [67] = { proto = 68 },
+                [68] = { proto = 69 },
+                [69] = { proto = 70 },
+                [70] = { proto = 71 },
+                [71] = { proto = 72 },
+                [72] = { proto = 73 },
+                [73] = { proto = 74 },
+                [74] = { proto = 75 },
+                [75] = { proto = 76 },
+                [76] = { proto = 77 },
+                [77] = { proto = 78 },
+                [78] = { proto = 79 },
+                [79] = { proto = 80 },
+                [80] = { proto = 81 },
+                [81] = { proto = 82 },
+                [82] = { proto = 83 },
+                [83] = { proto = 84 },
+                [84] = { proto = 85 },
+                [85] = { proto = 86 },
+                [86] = { proto = 87 },
+                [87] = { proto = 88 },
+                [88] = { proto = 89 },
+                [89] = { proto = 90 },
+                [90] = { proto = 91 },
+                [91] = { proto = 92 },
+                [92] = { proto = 93 },
+                [93] = { proto = 94 },
+                [94] = { proto = 95 },
+                [95] = { proto = 96 },
+                [96] = { proto = 97 },
+                [97] = { proto = 98 },
+                [98] = { proto = 99 },
+                [99] = { proto = 100 },
+                [100] = { proto = 101 },
+                [101] = { proto = 102 },
+            },
+            opaque_ascii = {
+                [0] = ">j=<n>=",
+                [1] = "x I6>>d  ",
+            },
+            byte_sequences = {
+                [0] = { hex = "00000000000000cc" },
+                [1] = { hex = "730c4c" },
+                [2] = { hex = "e41f" },
+                [3] = { hex = "449088e507" },
+                [4] = { hex = "00000000000000b2" },
+                [5] = { hex = "000000000000017e" },
+                [6] = { hex = "ab" },
+                [7] = { hex = "00000000000000e9" },
+            },
+        },
+        [1] = {
+            parent = 0,
+            strings = {
+                [0] = "Disable",
+                [1] = "1",
+                [2] = "Disconnect",
+                [3] = "pairs",
+                [4] = "Idled",
+                [5] = "print",
+            },
+        },
+        [2] = {
+            parent = 0,
+            strings = {
+                [0] = "warn",
+                [1] = "WTF: ",
+                [2] = "Idled",
+                [3] = "Connect",
+            },
+            proto_references = {
+                [0] = { proto = 103 },
+            },
+            opaque_ascii = {
+                [0] = "h>>>BH>",
+            },
+        },
+        [3] = {
+            parent = 0,
+            strings = {
+                [0] = "Farm",
+                [1] = "Auto Reload Blades",
+            },
+        },
+        [4] = {
+            parent = 0,
+            strings = {
+                [0] = "IsA",
+                [1] = "StringValue",
+                [2] = "FindFirstChild", -- x2
+                [3] = "Missions",
+                [4] = "Leader",
+                [5] = "Value", -- x2
+                [6] = "next", -- x2
+                [7] = "GetChildren", -- x2
+            },
+        },
+        [5] = {
+            parent = 0,
+            strings = {
+                [0] = "Not in lobby",
+                [1] = "not leader",
+                [2] = "IsLobby",
+                [3] = "sub", -- x2
+                [4] = "-",
+                [5] = "Description",
+                [6] = "Tag",
+                [7] = "find",
+                [8] = "ipairs",
+                [9] = "GetAttribute", -- x2
+                [10] = "Type",
+                [11] = "Waves",
+                [12] = "+",
+                [13] = "Get", -- x2
+                [14] = "S_Missions", -- x2
+                [15] = "",
+                [16] = "Modify", -- x2
+                [17] = "IsLobbyLeader",
+                [18] = "tostring",
+                [19] = "Modifiers",
+                [20] = "Waves doesn't support modifiers",
+                [21] = "TeleportLobby",
+                [22] = "wait",
+            },
+            booleans = {
+                [0] = false, -- x3
+                [1] = true,
+            },
+            opaque_ascii = {
+                [0] = "<Ld>=< ",
+            },
+        },
+        [6] = {
+            parent = 0,
+            strings = {
+                [0] = "GetCurrentSession",
+            },
+        },
+        [7] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild", -- x7
+                [1] = "Retry",
+                [2] = "Visible", -- x2
+                [3] = "Main", -- x2
+                [4] = "GetGameInterfaceGui",
+                [5] = "Buttons",
+                [6] = "State",
+                [7] = "Info",
+                [8] = "Rewards",
+                [9] = "Retry button not visible or not found retry button",
+            },
+            booleans = {
+                [0] = false,
+            },
+            proto_references = {
+                [0] = { proto = 104 },
+            },
+            byte_sequences = {
+                [0] = { hex = "b37509c6a7" },
+            },
+        },
+        [8] = {
+            parent = 0,
+            strings = {
+                [0] = "GetBoostedMap",
+                [1] = "Farm",
+                [2] = "Session",
+                [3] = "Settings",
+                [4] = "Auto Choose Depend On Boosted Map",
+                [5] = "RobloxNotification",
+                [6] = "Banana Cat Hub",
+                [7] = "Title",
+                [8] = "Creating ",
+                [9] = "Text",
+                [10] = "Missions",
+                [11] = "Mission Map",
+                [12] = "Duration",
+                [13] = "CreateSession",
+                [14] = "Type",
+                [15] = "Name",
+                [16] = "Difficulty", -- x2
+                [17] = "Objective", -- x2
+            },
+            opaque_ascii = {
+                [0] = " >j ==l<",
+            },
+        },
+        [9] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Rig_",
+            },
+            booleans = {
+                [0] = false,
+            },
+            opaque_ascii = {
+                [0] = "=<>b=<x>==",
+            },
+        },
+        [10] = {
+            parent = 0,
+            strings = {
+                [0] = "ClassName",
+                [1] = "RemoteEvent",
+                [2] = "Detect",
+                [3] = "FireServer",
+                [4] = "Name",
+            },
+        },
+        [11] = {
+            parent = 0,
+            strings = {
+                [0] = "InitCreateSession",
+                [1] = "<i8",
+            },
+            byte_sequences = {
+                [0] = { hex = "3900000000000000" },
+            },
+        },
+        [12] = {
+            parent = 0,
+            strings = {
+                [0] = "os", -- x2
+                [1] = "time", -- x2
+                [2] = "Position", -- x2
+                [3] = "Farm Height",
+                [4] = "type",
+                [5] = "IsDied", -- x3
+                [6] = "IsInSession",
+                [7] = "Missions",
+                [8] = "CFrame",
+                [9] = "HitNape",
+                [10] = "warn",
+                [11] = "AttackTitan: condition must be a function",
+                [12] = "wait", -- x2
+                [13] = "GetNapeTitan",
+                [14] = "<i8",
+                [15] = "new", -- x2
+                [16] = "Settings", -- x2
+                [17] = "FreezeCharacter",
+                [18] = "Farm Delay",
+                [19] = "function",
+            },
+            booleans = {
+                [0] = false,
+            },
+            proto_references = {
+                [0] = { proto = 105 },
+                [1] = { proto = 106 },
+            },
+            byte_sequences = {
+                [0] = { hex = "e2" },
+                [1] = { hex = "0300000000000000" },
+            },
+        },
+        [13] = {
+            parent = 0,
+            strings = {
+                [0] = "GetAttribute", -- x3
+                [1] = "Dead", -- x2
+                [2] = "GetWavesObjective",
+                [3] = "Show",
+                [4] = "Not ",
+                [5] = "Not show",
+                [6] = "Phase",
+            },
+            booleans = {
+                [0] = false, -- x4
+                [1] = true, -- x2
+            },
+        },
+        [14] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible",
+                [1] = "GetGameInterfaceGui",
+                [2] = "FindFirstChild",
+                [3] = "Skip",
+            },
+        },
+        [15] = {
+            parent = 0,
+            strings = {
+                [0] = "table",
+                [1] = "pairs", -- x2
+            },
+            booleans = {
+                [0] = false, -- x3
+                [1] = true,
+            },
+            opaque_ascii = {
+                [0] = "= =I>c57<<< n=",
+            },
+        },
+        [16] = {
+            parent = 0,
+            strings = {
+                [0] = "setmetatable",
+                [1] = "__newindex",
+                [2] = "__pairs",
+                [3] = "__ipairs",
+                [4] = "__len",
+                [5] = "v",
+                [6] = "__mode",
+                [7] = "__index",
+            },
+            proto_references = {
+                [0] = { proto = 107 },
+                [1] = { proto = 108 },
+                [2] = { proto = 109 },
+                [3] = { proto = 110 },
+                [4] = { proto = 111 },
+            },
+            opaque_ascii = {
+                [0] = "c244=>B<> n=",
+            },
+        },
+        [17] = {
+            parent = 0,
+            strings = {
+                [0] = "__raw",
+                [1] = "",
+            },
+            opaque_ascii = {
+                [0] = "= b  <B ",
+            },
+        },
+        [18] = {
+            parent = 0,
+            strings = {
+                [0] = "Not banned",
+                [1] = "ShadowBan",
+                [2] = "Disabled",
+                [3] = "<i8",
+                [4] = "CreateNoti",
+                [5] = "Shadow Ban",
+                [6] = "Title",
+                [7] = "Desc",
+                [8] = "ShowTime",
+            },
+            byte_sequences = {
+                [0] = { hex = "4c01000000000000" },
+            },
+        },
+        [19] = {
+            parent = 0,
+            strings = {
+                [0] = "Settings",
+                [1] = "Farm Height",
+            },
+        },
+        [20] = {
+            parent = 0,
+            strings = {
+                [0] = "pcall",
+                [1] = "rawset",
+                [2] = "warn",
+                [3] = "tostring",
+                [4] = "Invalid Roblox Service: ",
+            },
+            proto_references = {
+                [0] = { proto = 112 },
+            },
+        },
+        [21] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Defend_Eren",
+                [2] = "GetWSObjective",
+            },
+            byte_sequences = {
+                [0] = { hex = "b5ec" },
+            },
+        },
+        [22] = {
+            parent = 0,
+            strings = {
+                [0] = ">i8", -- x2
+            },
+            proto_references = {
+                [0] = { proto = 113 },
+                [1] = { proto = 114 },
+            },
+            byte_sequences = {
+                [0] = { hex = "0000000000000140" },
+                [1] = { hex = "0000000000000018" },
+            },
+        },
+        [23] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild", -- x3
+                [1] = "Hitboxes",
+                [2] = "Hit",
+                [3] = "Nape",
+            },
+            byte_sequences = {
+                [0] = { hex = "1f05370868" },
+            },
+        },
+        [24] = {
+            parent = 0,
+            strings = {
+                [0] = "GetTitan",
+                [1] = "GetWSObjective",
+                [2] = "GetAttribute",
+                [3] = "Objective",
+                [4] = "Armored Titan", -- x2
+                [5] = "GetNearest",
+                [6] = "<i8", -- x2
+                [7] = "GetObjectiveBoat",
+                [8] = "FindFirstChild",
+                [9] = "Defend_Eren_2",
+                [10] = "IsInSession", -- x2
+                [11] = "Raids",
+                [12] = "Waves",
+                [13] = "math",
+                [14] = "huge",
+            },
+            proto_references = {
+                [0] = { proto = 115 },
+            },
+            byte_sequences = {
+                [0] = { hex = "6900000000000000" },
+                [1] = { hex = "1600000000000000" },
+            },
+        },
+        [25] = {
+            parent = 0,
+            strings = {
+                [0] = "<i8",
+                [1] = "i5<",
+                [2] = "FindFirstChild", -- x2
+                [3] = "Colossal_Boss",
+                [4] = "GetAttribute",
+                [5] = "Max_Health",
+                [6] = "Health",
+                [7] = "Value",
+                [8] = "GetWSObjective",
+            },
+            booleans = {
+                [0] = false, -- x5
+            },
+            byte_sequences = {
+                [0] = { hex = "b700000000000000" },
+            },
+        },
+        [26] = {
+            parent = 0,
+            strings = {
+                [0] = "GetChildren",
+                [1] = "FindFirstChild",
+                [2] = "Titans",
+            },
+            opaque_ascii = {
+                [0] = ">f ><l>T L>n ",
+            },
+            byte_sequences = {
+                [0] = { hex = "a55d29" },
+            },
+        },
+        [27] = {
+            parent = 0,
+            strings = {
+                [0] = "GetWSObjective",
+                [1] = "FindFirstChild",
+                [2] = "Boat1",
+            },
+        },
+        [28] = {
+            parent = 0,
+            strings = {
+                [0] = "Waves",
+                [1] = "Auto Vote Start",
+            },
+        },
+        [29] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild", -- x4
+                [1] = "Top",
+                [2] = "7", -- x2
+                [3] = "Main",
+                [4] = "HUD",
+                [5] = "GetGameInterfaceGui",
+            },
+        },
+        [30] = {
+            parent = 0,
+            strings = {
+                [0] = ">i8",
+                [1] = "IsA",
+                [2] = "TextLabel",
+                [3] = "Text",
+                [4] = "(%d+)",
+                [5] = "GetMainPlayerGui",
+                [6] = "FindFirstChild", -- x2
+                [7] = "Percentage",
+                [8] = "tonumber",
+                [9] = "string",
+                [10] = "match",
+                [11] = "Gas",
+            },
+            byte_sequences = {
+                [0] = { hex = "0000000000000187" },
+            },
+        },
+        [31] = {
+            parent = 0,
+            strings = {
+                [0] = "next", -- x2
+                [1] = "Climbable",
+                [2] = "GetDescendants",
+                [3] = "GasTank", -- x4
+                [4] = "GetUnClimbable",
+                [5] = "Not Found Gas Tank",
+                [6] = "Name",
+                [7] = "Refill",
+                [8] = "Unclimbable",
+            },
+            booleans = {
+                [0] = false,
+            },
+            opaque_ascii = {
+                [0] = "  h=d> ",
+            },
+        },
+        [32] = {
+            parent = 0,
+            strings = {
+                [0] = "GetGasTank",
+                [1] = "wait", -- x2
+                [2] = "Not Found Gas Tank",
+                [3] = "PressKeyEvent",
+                [4] = "R",
+                [5] = "SetPrimaryPartCFrame",
+                [6] = "CheckDistance",
+            },
+            booleans = {
+                [0] = false,
+                [1] = true,
+            },
+            byte_sequences = {
+                [0] = { hex = "8d623dbb" },
+            },
+        },
+        [33] = {
+            parent = 0,
+            strings = {
+                [0] = "Reload",
+                [1] = "GetGasTank",
+                [2] = "Not Found Gas Tank",
+                [3] = "Post",
+                [4] = "Attacks",
+            },
+            booleans = {
+                [0] = false,
+            },
+            byte_sequences = {
+                [0] = { hex = "9c" },
+            },
+        },
+        [34] = {
+            parent = 0,
+            strings = {
+                [0] = "",
+                [1] = "FindFirstChild", -- x2
+                [2] = "Left_",
+                [3] = "GetAttribute",
+                [4] = "Used",
+                [5] = "Right_",
+            },
+            booleans = {
+                [0] = true, -- x3
+                [1] = false, -- x2
+            },
+        },
+        [35] = {
+            parent = 0,
+            strings = {
+                [0] = "Blade_", -- x2
+                [1] = "FindFirstChild", -- x4
+                [2] = "All blades are broken, you can reload",
+                [3] = " blade left",
+                [4] = "You have ",
+                [5] = "GetAttribute",
+                [6] = "Broken",
+                [7] = "Rig missing LeftHand/RightHand.",
+                [8] = "LeftHand",
+                [9] = "RightHand",
+            },
+            booleans = {
+                [0] = false, -- x3
+                [1] = true,
+            },
+            opaque_ascii = {
+                [0] = " >x=I> ",
+            },
+            byte_sequences = {
+                [0] = { hex = "b4" },
+            },
+        },
+        [36] = {
+            parent = 0,
+            strings = {
+                [0] = "Raids",
+                [1] = "Difficulty",
+            },
+        },
+        [37] = {
+            parent = 0,
+            strings = {
+                [0] = "GetAttribute", -- x4
+                [1] = "Weapon",
+                [2] = "Blades", -- x2
+                [3] = "HasSheath",
+                [4] = "Ragdoll",
+                [5] = "Get",
+                [6] = "You have no blade left.",
+                [7] = "GetBladeLeft",
+                [8] = "Rewarded",
+                [9] = "Reload",
+                [10] = "Shifter",
+                [11] = "No empty sheath.",
+            },
+            booleans = {
+                [0] = false, -- x6
+                [1] = true,
+            },
+            opaque_ascii = {
+                [0] = " =x  d <",
+            },
+        },
+        [38] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Chests",
+                [2] = "Visible",
+                [3] = "GetGameInterfaceGui",
+            },
+        },
+        [39] = {
+            parent = 0,
+            strings = {
+                [0] = "not found",
+                [1] = "Visible", -- x2
+                [2] = "FindFirstChild", -- x2
+                [3] = "Free",
+                [4] = "Premium",
+                [5] = "GetChest",
+            },
+            booleans = {
+                [0] = false,
+            },
+            byte_sequences = {
+                [0] = { hex = "df" },
+            },
+        },
+        [40] = {
+            parent = 0,
+            strings = {
+                [0] = "Raids",
+                [1] = "Retreat",
+                [2] = "GetAttribute",
+                [3] = "Type",
+                [4] = "<i8",
+            },
+            booleans = {
+                [0] = false,
+            },
+            byte_sequences = {
+                [0] = { hex = "6b00000000000000" },
+            },
+        },
+        [41] = {
+            parent = 0,
+            strings = {
+                [0] = "a",
+                [1] = "Skip not visible",
+                [2] = "PressKeyEvent",
+                [3] = "E",
+                [4] = "IsSkipVisible",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [42] = {
+            parent = 0,
+            strings = {
+                [0] = ">i8",
+                [1] = "DestroyUI",
+            },
+            byte_sequences = {
+                [0] = { hex = "00000000000000fd" },
+            },
+        },
+        [43] = {
+            parent = 0,
+            strings = {
+                [0] = "xpcall",
+                [1] = "wait", -- x2
+            },
+            proto_references = {
+                [0] = { proto = 116 },
+                [1] = { proto = 117 },
+            },
+            byte_sequences = {
+                [0] = { hex = "a771" },
+                [1] = { hex = "559b87df59" },
+            },
+        },
+        [44] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Interface",
+            },
+        },
+        [45] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible",
+                [1] = "GetGameInterfaceGui",
+                [2] = "FindFirstChild",
+                [3] = "Title_Screen",
+            },
+        },
+        [46] = {
+            parent = 0,
+            strings = {
+                [0] = "GetAttribute",
+                [1] = "Boosted_Map",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [47] = {
+            parent = 0,
+            strings = {
+                [0] = "WaitForChild", -- x2
+                [1] = "HumanoidRootPart",
+                [2] = "Humanoid",
+            },
+        },
+        [48] = {
+            parent = 0,
+            booleans = {
+                [0] = true,
+            },
+        },
+        [49] = {
+            parent = 0,
+            strings = {
+                [0] = "not leader",
+                [1] = "ipairs",
+                [2] = "GetChildren",
+                [3] = "Get", -- x2
+                [4] = "S_Missions", -- x2
+                [5] = "Start",
+                [6] = "print",
+                [7] = "tostring", -- x2
+                [8] = "GetAttribute",
+                [9] = "ID",
+                [10] = "Value",
+                [11] = "IsLobby",
+                [12] = "Mission Started: ",
+                [13] = "wait", -- x2
+                [14] = "Join Failed, ID: ",
+                [15] = "xpcall",
+                [16] = "IsLobbyLeader",
+                [17] = "IsA",
+                [18] = "StringValue",
+                [19] = "Join",
+            },
+            booleans = {
+                [0] = false, -- x4
+                [1] = true,
+            },
+            proto_references = {
+                [0] = { proto = 118 },
+                [1] = { proto = 119 },
+            },
+            byte_sequences = {
+                [0] = { hex = "9b45ff531a" },
+            },
+        },
+        [50] = {
+            parent = 0,
+            strings = {
+                [0] = "TeleportLobby",
+                [1] = "wait", -- x2
+                [2] = "Not found lobby",
+                [3] = "FindLobby", -- x2
+                [4] = "IsLobby",
+                [5] = "Trost", -- x2
+                [6] = "Name", -- x4
+                [7] = "Objective", -- x5
+                [8] = "IsInSession",
+                [9] = "Missions", -- x2
+                [10] = "GetAttribute", -- x2
+                [11] = "Cutscene",
+                [12] = "Waves", -- x2
+                [13] = "Easy",
+                [14] = "Difficulty", -- x3
+                [15] = "StartLobby",
+                [16] = "Apply Modifiers",
+                [17] = "Already in mission",
+                [18] = ">i8",
+                [19] = "Get",
+                [20] = "S_Missions",
+                [21] = "Create",
+                [22] = "Rolling",
+                [23] = "Type", -- x3
+                [24] = "Raids",
+            },
+            booleans = {
+                [0] = false, -- x4
+                [1] = true,
+            },
+            byte_sequences = {
+                [0] = { hex = "00000000000000ef" },
+            },
+        },
+        [51] = {
+            parent = 0,
+            strings = {
+                [0] = "table", -- x2
+                [1] = "next",
+            },
+        },
+        [52] = {
+            parent = 0,
+            strings = {
+                [0] = "nil",
+                [1] = "warn", -- x2
+                [2] = "File created: ",
+                [3] = "JSONEncode", -- x2
+                [4] = ">i8",
+                [5] = "File reset: ",
+                [6] = "{}",
+                [7] = "", -- x2
+                [8] = "match",
+                [9] = "(.+)/[^/]+$",
+            },
+            opaque_ascii = {
+                [0] = "= T><T= T d  > ",
+            },
+            byte_sequences = {
+                [0] = { hex = "0000000000000019" },
+            },
+        },
+        [53] = {
+            parent = 0,
+            strings = {
+                [0] = "GetAttribute",
+                [1] = "Map",
+                [2] = "Lobby",
+            },
+        },
+        [54] = {
+            parent = 0,
+            strings = {
+                [0] = "GetAttribute", -- x2
+                [1] = "Shifter",
+                [2] = "Type",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [55] = {
+            parent = 0,
+            strings = {
+                [0] = "ipairs",
+                [1] = "GetChildren",
+                [2] = "GetTitan",
+                [3] = "8",
+                [4] = "CheckDistance",
+                [5] = "table",
+                [6] = "insert",
+                [7] = "titan",
+                [8] = "nape",
+            },
+            opaque_ascii = {
+                [0] = "=j i l =",
+            },
+        },
+        [56] = {
+            parent = 0,
+            strings = {
+                [0] = "math", -- x2
+                [1] = "random", -- x2
+                [2] = "LastHit", -- x3
+                [3] = "Post", -- x2
+                [4] = "Hitboxes",
+                [5] = "Register",
+                [6] = "Attacks",
+                [7] = "Slash",
+                [8] = "Farm",
+                [9] = "Auto Reload Blades",
+                [10] = "os",
+                [11] = "clock",
+                [12] = "GetBladeLeft",
+                [13] = "CheckZXDistance",
+                [14] = "Position",
+                [15] = ">i8",
+                [16] = "ReloadBlades",
+                [17] = "FreezeCharacter", -- x2
+                [18] = "RefillBlades",
+                [19] = "NoSheathBlades",
+            },
+            booleans = {
+                [0] = true, -- x2
+                [1] = false,
+            },
+            proto_references = {
+                [0] = { proto = 120 },
+                [1] = { proto = 121 },
+            },
+            byte_sequences = {
+                [0] = { hex = "0000000000000099" },
+            },
+        },
+        [57] = {
+            parent = 0,
+            strings = {
+                [0] = "Waves",
+                [1] = "Auto Loot Skills Box",
+                [2] = "<i8",
+            },
+            opaque_ascii = {
+                [0] = "=B=>n> <l",
+                [1] = " d<==J",
+            },
+            byte_sequences = {
+                [0] = { hex = "b601000000000000" },
+            },
+        },
+        [58] = {
+            parent = 0,
+            strings = {
+                [0] = "Missions",
+                [1] = "Objective",
+            },
+        },
+        [59] = {
+            parent = 0,
+            strings = {
+                [0] = "GetBladeLeft",
+                [1] = "HasSheath",
+            },
+        },
+        [60] = {
+            parent = 0,
+            strings = {
+                [0] = "<i8", -- x2
+                [1] = "FindFirstChild",
+                [2] = "Waves",
+            },
+            byte_sequences = {
+                [0] = { hex = "aa01000000000000" },
+                [1] = { hex = "861dbd" },
+                [2] = { hex = "91ce" },
+                [3] = { hex = "2900000000000000" },
+            },
+        },
+        [61] = {
+            parent = 0,
+            strings = {
+                [0] = "IsInSession",
+                [1] = "Waves",
+                [2] = "FindFirstChild", -- x2
+                [3] = "Crate_",
+                [4] = "Crates",
+                [5] = ">i8",
+                [6] = "GetWorkspaceWaves",
+                [7] = "Not In Waves",
+            },
+            booleans = {
+                [0] = false,
+            },
+            opaque_ascii = {
+                [0] = "i===",
+            },
+            byte_sequences = {
+                [0] = { hex = "00000000000000ef" },
+            },
+        },
+        [62] = {
+            parent = 0,
+            strings = {
+                [0] = "Missions",
+                [1] = "Difficulty",
+            },
+        },
+        [63] = {
+            parent = 0,
+            strings = {
+                [0] = "Settings",
+                [1] = "Slot Letter",
+            },
+        },
+        [64] = {
+            parent = 0,
+            strings = {
+                [0] = "D",
+                [1] = "CFrame", -- x3
+                [2] = "PrimaryPart",
+                [3] = "new", -- x2
+                [4] = "GetPivot", -- x2
+                [5] = "IsA", -- x4
+                [6] = "Vector3Value",
+                [7] = "Value", -- x2
+                [8] = "Instance",
+                [9] = "Vector3",
+                [10] = "CFrameValue",
+                [11] = "Model",
+                [12] = "BasePart",
+                [13] = "FindFirstChild",
+                [14] = "HumanoidRootPart",
+            },
+        },
+        [65] = {
+            parent = 0,
+            strings = {
+                [0] = "pcall",
+                [1] = "warn",
+                [2] = "tostring",
+                [3] = "<i8",
+                [4] = "",
+            },
+            booleans = {
+                [0] = true,
+            },
+            proto_references = {
+                [0] = { proto = 122 },
+            },
+            byte_sequences = {
+                [0] = { hex = "0f01000000000000" },
+            },
+        },
+        [66] = {
+            parent = 0,
+            strings = {
+                [0] = "Settings",
+                [1] = "Auto Skip Introduce",
+            },
+        },
+        [67] = {
+            parent = 0,
+            strings = {
+                [0] = "spawn",
+            },
+            booleans = {
+                [0] = false,
+            },
+            proto_references = {
+                [0] = { proto = 123 },
+            },
+        },
+        [68] = {
+            parent = 0,
+            strings = {
+                [0] = "Settings",
+                [1] = "Farm Delay",
+            },
+        },
+        [69] = {
+            parent = 0,
+            strings = {
+                [0] = "Post",
+                [1] = "Waves",
+                [2] = "Update",
+                [3] = "wait",
+                [4] = "GetWavesCanVote",
+                [5] = "Skip",
+            },
+            booleans = {
+                [0] = false,
+            },
+            byte_sequences = {
+                [0] = { hex = "be994eecb5" },
+            },
+        },
+        [70] = {
+            parent = 0,
+            strings = {
+                [0] = ">i8",
+                [1] = "GetAttribute", -- x2
+                [2] = "Objective",
+                [3] = "Type",
+                [4] = "Raids",
+                [5] = "Colossal Titan",
+            },
+            byte_sequences = {
+                [0] = { hex = "0000000000000170" },
+            },
+        },
+        [71] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Unclimbable",
+            },
+        },
+        [72] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Objective",
+                [2] = "GetUnClimbable",
+                [3] = "Z",
+            },
+            byte_sequences = {
+                [0] = { hex = "34a26f" },
+            },
+        },
+        [73] = {
+            parent = 0,
+            strings = {
+                [0] = "Settings",
+                [1] = "Effects",
+                [2] = "ShadowBan",
+                [3] = "Get",
+                [4] = "Functions",
+            },
+        },
+        [74] = {
+            parent = 0,
+        },
+        [75] = {
+            parent = 0,
+            strings = {
+                [0] = "Settings",
+                [1] = "Auto Select Character",
+            },
+        },
+        [76] = {
+            parent = 0,
+            strings = {
+                [0] = "math",
+                [1] = "huge",
+                [2] = "GetPosition", -- x2
+                [3] = "Magnitude",
+                [4] = "T",
+            },
+        },
+        [77] = {
+            parent = 0,
+            strings = {
+                [0] = "X", -- x2
+                [1] = "math", -- x2
+                [2] = "sqrt",
+                [3] = "GetPosition", -- x2
+                [4] = "Z", -- x2
+                [5] = "huge",
+            },
+            opaque_ascii = {
+                [0] = "> c197 <=",
+            },
+            byte_sequences = {
+                [0] = { hex = "d1d6" },
+            },
+        },
+        [78] = {
+            parent = 0,
+            strings = {
+                [0] = "CFrame",
+                [1] = "wait",
+                [2] = "new",
+                [3] = "X",
+                [4] = "Y",
+                [5] = "Position",
+                [6] = "Z",
+            },
+            byte_sequences = {
+                [0] = { hex = "b571" },
+            },
+        },
+        [79] = {
+            parent = 0,
+            strings = {
+                [0] = "math",
+                [1] = "huge",
+                [2] = "GetChildren",
+                [3] = "ipairs",
+                [4] = "CheckDistance",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [80] = {
+            parent = 0,
+            strings = {
+                [0] = "GetWSObjective",
+                [1] = "FindFirstChild",
+                [2] = "Waves",
+                [3] = ">i8",
+            },
+            booleans = {
+                [0] = false, -- x2
+            },
+            byte_sequences = {
+                [0] = { hex = "000000000000003c" },
+            },
+        },
+        [81] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible",
+                [1] = "GetGameInterfaceGui",
+                [2] = "FindFirstChild",
+                [3] = "Skip",
+            },
+            byte_sequences = {
+                [0] = { hex = "d60277" },
+            },
+        },
+        [82] = {
+            parent = 0,
+            strings = {
+                [0] = "Farm",
+                [1] = "Auto Retry",
+                [2] = "<i8",
+            },
+            opaque_ascii = {
+                [0] = "<fc42= J <T",
+            },
+            byte_sequences = {
+                [0] = { hex = "8d01000000000000" },
+            },
+        },
+        [83] = {
+            parent = 0,
+            strings = {
+                [0] = "Farm",
+                [1] = "Auto Farm",
+            },
+        },
+        [84] = {
+            parent = 0,
+            strings = {
+                [0] = "Missions",
+                [1] = "Mission Map",
+            },
+        },
+        [85] = {
+            parent = 0,
+            strings = {
+                [0] = "Settings",
+                [1] = "Auto Choose Depend On Boosted Map",
+            },
+        },
+        [86] = {
+            parent = 0,
+            strings = {
+                [0] = "",
+                [1] = "GetWavesSkillCrateBox",
+                [2] = "GetAttribute",
+                [3] = "Occupied",
+            },
+        },
+        [87] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild", -- x3
+                [1] = "Zones",
+                [2] = "GetWorkspaceWaves",
+                [3] = "Skills",
+                [4] = "<i8",
+                [5] = "Hitbox",
+            },
+            byte_sequences = {
+                [0] = { hex = "1900000000000000" },
+            },
+        },
+        [88] = {
+            parent = 0,
+            strings = {
+                [0] = "Raids",
+                [1] = "Objective",
+            },
+        },
+        [89] = {
+            parent = 0,
+            strings = {
+                [0] = "InvokeServer",
+                [1] = "table",
+                [2] = "unpack",
+            },
+        },
+        [90] = {
+            parent = 0,
+            strings = {
+                [0] = "<i8",
+                [1] = "table",
+                [2] = "unpack",
+                [3] = ">i8",
+                [4] = "FireServer",
+            },
+            byte_sequences = {
+                [0] = { hex = "e700000000000000" },
+                [1] = { hex = "0000000000000124" },
+            },
+        },
+        [91] = {
+            parent = 0,
+            strings = {
+                [0] = "Farm",
+                [1] = "Session",
+            },
+        },
+        [92] = {
+            parent = 0,
+            strings = {
+                [0] = "ToggleUI",
+            },
+        },
+        [93] = {
+            parent = 0,
+            strings = {
+                [0] = "syn", -- x2
+                [1] = "requests",
+                [2] = "request", -- x3
+                [3] = "key", -- x5
+                [4] = "script_key", -- x5
+                [5] = "getfenv", -- x3
+                [6] = "getgenv",
+                [7] = "Key linked to a different HWID.",
+                [8] = "identifyexecutor",
+                [9] = "Fluxus",
+                [10] = "check_key",
+                [11] = "code", -- x3
+                [12] = "KEY_VALID",
+                [13] = "http",
+                [14] = "loadstring",
+                [15] = "game", -- x3
+                [16] = "Players", -- x2
+                [17] = "LocalPlayer", -- x2
+                [18] = "Kick", -- x2
+                [19] = "KEY_INCORRECT",
+                [20] = "LimitKeyFree",
+                [21] = "KEY_HWID_LOCKED",
+                [22] = "http_request",
+                [23] = "Key is wrong or deleted!",
+                [24] = "HttpGet",
+                [25] = "https://sdkapi-public.luarmor.net/library.lua",
+                [26] = "226b3e16b8b245a46eb5d20a42b359ee",
+                [27] = "script_id",
+            },
+            booleans = {
+                [0] = true, -- x2
+            },
+            proto_references = {
+                [0] = { proto = 124 },
+            },
+        },
+        [94] = {
+            parent = 0,
+            strings = {
+                [0] = "warn", -- x2
+                [1] = "send your key pls!", -- x2
+                [2] = "http_request",
+                [3] = "<i8",
+                [4] = "string",
+                [5] = "char",
+                [6] = "getgenv", -- x4
+                [7] = "ditconmemaythangsvvando",
+                [8] = "loadstring", -- x2
+                [9] = "--",
+                [10] = "request", -- x3
+                [11] = "Key", -- x3
+                [12] = "tick",
+                [13] = "getgenv().ditconmemaythangsvvando = true",
+                [14] = "syn", -- x2
+                [15] = "identifyexecutor",
+                [16] = "Fluxus",
+                [17] = "requests",
+                [18] = "table",
+                [19] = "create",
+                [20] = "http",
+            },
+            proto_references = {
+                [0] = { proto = 125 },
+                [1] = { proto = 126 },
+                [2] = { proto = 127 },
+                [3] = { proto = 128 },
+                [4] = { proto = 129 },
+                [5] = { proto = 130 },
+                [6] = { proto = 131 },
+                [7] = { proto = 132 },
+                [8] = { proto = 133 },
+                [9] = { proto = 134 },
+                [10] = { proto = 135 },
+                [11] = { proto = 136 },
+                [12] = { proto = 137 },
+                [13] = { proto = 138 },
+                [14] = { proto = 139 },
+                [15] = { proto = 140 },
+                [16] = { proto = 141 },
+                [17] = { proto = 142 },
+            },
+            byte_sequences = {
+                [0] = { hex = "ff01000000000000" },
+            },
+        },
+        [95] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild", -- x2
+                [1] = "Slots", -- x2
+                [2] = "Get", -- x3
+                [3] = "Functions", -- x3
+                [4] = "Select",
+                [5] = "Settings",
+                [6] = "Visible", -- x2
+                [7] = "Teleport", -- x2
+                [8] = "Lobby", -- x2
+                [9] = "IsLobby",
+                [10] = "",
+                [11] = "Slot Letter",
+                [12] = "GetGameTitleScreen",
+                [13] = "Buttons", -- x2
+                [14] = "A",
+                [15] = "wait",
+            },
+            booleans = {
+                [0] = true, -- x2
+                [1] = false,
+            },
+            opaque_ascii = {
+                [0] = ">>I =>B",
+            },
+        },
+        [96] = {
+            parent = 0,
+            strings = {
+                [0] = ">i8",
+                [1] = "FindFirstChild",
+                [2] = "Leader",
+                [3] = "ipairs",
+                [4] = "GetChildren",
+                [5] = "Value", -- x2
+                [6] = "",
+                [7] = "IsA",
+                [8] = "StringValue",
+            },
+            byte_sequences = {
+                [0] = { hex = "8a590a" },
+                [1] = { hex = "00000000000001d9" },
+            },
+        },
+        [97] = {
+            parent = 0,
+            strings = {
+                [0] = "Blank",
+                [1] = "Notification",
+                [2] = "SetCore",
+                [3] = "Text", -- x2
+                [4] = "Duration", -- x2
+                [5] = "Icon", -- x2
+                [6] = "Button1", -- x2
+                [7] = "Button2", -- x2
+                [8] = "Callback", -- x2
+                [9] = "SendNotification",
+                [10] = "Title", -- x2
+            },
+            opaque_ascii = {
+                [0] = ">n=IJ <<<",
+            },
+        },
+        [98] = {
+            parent = 0,
+            strings = {
+                [0] = "Character",
+                [1] = "FindFirstChild", -- x2
+                [2] = "HumanoidRootPart", -- x2
+                [3] = "Instance",
+                [4] = "Position", -- x6
+                [5] = "IsA", -- x2
+                [6] = "BasePart", -- x2
+                [7] = "CFrame",
+                [8] = "WorldPivot", -- x2
+                [9] = "number",
+                [10] = "table",
+                [11] = "Vector3",
+                [12] = "FindFirstChildWhichIsA",
+                [13] = "Player",
+            },
+        },
+        [99] = {
+            parent = 0,
+            strings = {
+                [0] = "Settings",
+                [1] = "Auto Create Session",
+            },
+        },
+        [100] = {
+            parent = 0,
+            strings = {
+                [0] = "s/",
+                [1] = "table",
+                [2] = "Corrupted file repaired: ",
+                [3] = "JSONEncode",
+                [4] = "warn",
+                [5] = "pcall",
+            },
+            proto_references = {
+                [0] = { proto = 143 },
+            },
+        },
+        [101] = {
+            parent = 0,
+            strings = {
+                [0] = "xpcall",
+            },
+            proto_references = {
+                [0] = { proto = 144 },
+                [1] = { proto = 145 },
+            },
+        },
+        [102] = {
+            parent = 0,
+            strings = {
+                [0] = "RigType",
+                [1] = "HumanoidRigType",
+                [2] = "R15",
+            },
+            byte_sequences = {
+                [0] = { hex = "77ed0b" },
+            },
+        },
+        [103] = {
+            parent = 2,
+            strings = {
+                [0] = "ClickButton2",
+                [1] = "new",
+                [2] = "CaptureController",
+            },
+        },
+        [104] = {
+            parent = 7,
+            strings = {
+                [0] = "pcall",
+            },
+            booleans = {
+                [0] = false,
+            },
+            proto_references = {
+                [0] = { proto = 146 },
+            },
+        },
+        [105] = {
+            parent = 12,
+            strings = {
+                [0] = "IsDied",
+            },
+        },
+        [106] = {
+            parent = 12,
+        },
+        [107] = {
+            parent = 16,
+            strings = {
+                [0] = "pcall",
+                [1] = "_DEBUG", -- x2
+                [2] = "<i8",
+            },
+            proto_references = {
+                [0] = { proto = 147 },
+                [1] = { proto = 148 },
+                [2] = { proto = 149 },
+            },
+            byte_sequences = {
+                [0] = { hex = "d400000000000000" },
+                [1] = { hex = "08e4" },
+            },
+        },
+        [108] = {
+            parent = 16,
+            strings = {
+                [0] = "next",
+            },
+        },
+        [109] = {
+            parent = 16,
+            strings = {
+                [0] = "ipairs",
+            },
+        },
+        [110] = {
+            parent = 16,
+        },
+        [111] = {
+            parent = 16,
+            strings = {
+                [0] = "table",
+                [1] = "__raw",
+            },
+        },
+        [112] = {
+            parent = 20,
+            strings = {
+                [0] = "GetService",
+            },
+        },
+        [113] = {
+            parent = 22,
+            strings = {
+                [0] = "ipairs",
+                [1] = "GetChildren",
+                [2] = "IsDied",
+                [3] = "GetTitan",
+            },
+            opaque_ascii = {
+                [0] = "=c173<= x==<",
+            },
+        },
+        [114] = {
+            parent = 22,
+            strings = {
+                [0] = "GetAttribute",
+                [1] = "Type",
+                [2] = "IsDied",
+                [3] = "FindFirstChild", -- x3
+                [4] = "Hitboxes",
+                [5] = "Nape",
+                [6] = "Hit",
+                [7] = "<i8",
+            },
+            booleans = {
+                [0] = false, -- x2
+            },
+            byte_sequences = {
+                [0] = { hex = "c53137bc6e" },
+                [1] = { hex = "bf00000000000000" },
+            },
+        },
+        [115] = {
+            parent = 24,
+            strings = {
+                [0] = "GetUnClimbable",
+                [1] = "<i8",
+                [2] = "WaitForChild", -- x3
+                [3] = "Main",
+                [4] = "Objective",
+                [5] = "Waves",
+            },
+            byte_sequences = {
+                [0] = { hex = "b900000000000000" },
+            },
+        },
+        [116] = {
+            parent = 43,
+            strings = {
+                [0] = "VoteSkipWaves",
+                [1] = "IsSkipVisible",
+                [2] = "SetPrimaryPartCFrame", -- x2
+                [3] = "Hitbox",
+                [4] = "AttackTitan", -- x3
+                [5] = "Auto Retry",
+                [6] = "CFrame", -- x2
+                [7] = "Waves", -- x3
+                [8] = "Auto Vote Start",
+                [9] = "Farm", -- x2
+                [10] = "Auto Farm",
+                [11] = "CreateNoti", -- x2
+                [12] = "Banana Cat Hub", -- x2
+                [13] = "Title", -- x2
+                [14] = "Retrying the mission",
+                [15] = "Desc", -- x2
+                [16] = "ShowTime", -- x2
+                [17] = "VoteSkipTrailer",
+                [18] = "RetryTheMission",
+                [19] = "wait", -- x4
+                [20] = "Teleporting to lobby",
+                [21] = "GetWavesSkills",
+                [22] = "HasPickedUpWavesCrateBox",
+                [23] = "GetWavesSkillCrateBox",
+                [24] = "Auto Loot Skills Box",
+                [25] = "Settings", -- x3
+                [26] = "Auto Skip Introduce",
+                [27] = "Auto Create Session",
+                [28] = "Raids",
+                [29] = "Missions",
+                [30] = "TeleportLobby",
+                [31] = "InitCreateSession",
+                [32] = "Auto Select Character",
+                [33] = "GetCurrentSession",
+            },
+            proto_references = {
+                [0] = { proto = 150 },
+                [1] = { proto = 151 },
+                [2] = { proto = 152 },
+            },
+            opaque_ascii = {
+                [0] = "< f I1<",
+            },
+        },
+        [117] = {
+            parent = 43,
+            strings = {
+                [0] = "warn",
+                [1] = "[Banana Cat] Farm:",
+                [2] = "tostring",
+            },
+        },
+        [118] = {
+            parent = 49,
+            strings = {
+                [0] = "ApplyMissionModifiers",
+            },
+        },
+        [119] = {
+            parent = 49,
+            strings = {
+                [0] = "warn",
+                [1] = "Failed to apply modifiers: ",
+            },
+        },
+        [120] = {
+            parent = 56,
+            strings = {
+                [0] = "NoSheathBlades",
+                [1] = "GetBladeLeft",
+            },
+        },
+        [121] = {
+            parent = 56,
+            strings = {
+                [0] = "GetBladeLeft",
+            },
+        },
+        [122] = {
+            parent = 65,
+            strings = {
+                [0] = "IsA", -- x2
+                [1] = "NumberValue",
+                [2] = "FindFirstChild", -- x2
+                [3] = "HumanoidRootPart",
+                [4] = "Health",
+                [5] = "Humanoid", -- x2
+                [6] = "Value",
+            },
+            booleans = {
+                [0] = false,
+                [1] = true, -- x2
+            },
+            byte_sequences = {
+                [0] = { hex = "aad7" },
+            },
+        },
+        [123] = {
+            parent = 67,
+            strings = {
+                [0] = "SendKeyEvent", -- x2
+                [1] = "wait",
+            },
+            booleans = {
+                [0] = false, -- x3
+                [1] = true, -- x2
+            },
+        },
+        [124] = {
+            parent = 93,
+            strings = {
+                [0] = "string",
+                [1] = "sub",
+                [2] = "tostring",
+                [3] = "math",
+                [4] = "random",
+                [5] = "",
+            },
+            opaque_ascii = {
+                [0] = "I5 T <<",
+            },
+        },
+        [125] = {
+            parent = 94,
+            strings = {
+                [0] = "math",
+                [1] = "",
+                [2] = "string",
+                [3] = "sub",
+                [4] = "tostring",
+                [5] = "random",
+            },
+        },
+        [126] = {
+            parent = 94,
+        },
+        [127] = {
+            parent = 94,
+            strings = {
+                [0] = ">i8",
+            },
+            byte_sequences = {
+                [0] = { hex = "1189" },
+                [1] = { hex = "000000000000000d" },
+            },
+        },
+        [128] = {
+            parent = 94,
+            strings = {
+                [0] = "<i8", -- x2
+                [1] = "([^%s]+)",
+                [2] = "format",
+                [3] = "table",
+                [4] = "insert",
+                [5] = "gmatch",
+            },
+            byte_sequences = {
+                [0] = { hex = "bd01000000000000" },
+                [1] = { hex = "6780" },
+                [2] = { hex = "0b00000000000000" },
+            },
+        },
+        [129] = {
+            parent = 94,
+            strings = {
+                [0] = "gsub", -- x4
+                [1] = "tostring",
+                [2] = "\"",
+                [3] = "\\\"",
+                [4] = "",
+                [5] = "\\",
+                [6] = "\\\\",
+                [7] = "\r",
+                [8] = "\\r",
+                [9] = "\n",
+                [10] = "\\n",
+            },
+            opaque_ascii = {
+                [0] = " c170><n  >",
+            },
+        },
+        [130] = {
+            parent = 94,
+            strings = {
+                [0] = "sub", -- x2
+                [1] = "tostring",
+                [2] = "",
+                [3] = "...",
+            },
+        },
+        [131] = {
+            parent = 94,
+            strings = {
+                [0] = "unknown", -- x4
+                [1] = "pcall", -- x2
+                [2] = "table", -- x2
+                [3] = "insert",
+                [4] = "value", -- x14
+                [5] = "userId",
+                [6] = "name", -- x13
+                [7] = "key",
+                [8] = "getgenv",
+                [9] = "concat",
+                [10] = "", -- x6
+                [11] = "sub", -- x2
+                [12] = "game", -- x6
+                [13] = "Players", -- x4
+                [14] = "LocalPlayer", -- x4
+                [15] = "UserId",
+                [16] = "jobId",
+                [17] = "tostring", -- x10
+                [18] = ",",
+                [19] = "body", -- x2
+                [20] = "{\"username\":\"Whitelist Timeout\",\"embeds\":[{\"title\":\"whitelist.lua timeout\",\"color\":16711680,\"fields\":[%s]}]}",
+                [21] = "format", -- x2
+                [22] = "executor",
+                [23] = "{\"name\":\"%s\",\"value\":\"```%s```\",\"inline\":false}",
+                [24] = "ipairs",
+                [25] = "url", -- x2
+                [26] = "JobId",
+                [27] = "Name",
+                [28] = "elapsed", -- x2
+                [29] = "placeId",
+                [30] = "PlaceId",
+                [31] = "Key",
+                [32] = "player",
+                [33] = "success", -- x2
+                [34] = "reason",
+                [35] = "statusCode", -- x2
+            },
+            booleans = {
+                [0] = false,
+            },
+            proto_references = {
+                [0] = { proto = 153 },
+                [1] = { proto = 154 },
+            },
+            byte_sequences = {
+                [0] = { hex = "6fb02061" },
+            },
+        },
+        [132] = {
+            parent = 94,
+            strings = {
+                [0] = "unknown",
+                [1] = "pcall",
+                [2] = "<i8",
+            },
+            proto_references = {
+                [0] = { proto = 155 },
+            },
+            byte_sequences = {
+                [0] = { hex = "2400000000000000" },
+                [1] = { hex = "b1" },
+            },
+        },
+        [133] = {
+            parent = 94,
+            strings = {
+                [0] = "gsub",
+                [1] = "([^%w%-_%.~])",
+                [2] = "tostring",
+                [3] = "",
+            },
+            proto_references = {
+                [0] = { proto = 156 },
+            },
+            opaque_ascii = {
+                [0] = " =>j<<>L",
+            },
+            byte_sequences = {
+                [0] = { hex = "2cc5" },
+            },
+        },
+        [134] = {
+            parent = 94,
+            strings = {
+                [0] = "Delta",
+                [1] = "find",
+                [2] = "game", -- x4
+                [3] = "JobId",
+                [4] = "&jobId=",
+                [5] = "&placeId=",
+                [6] = "Players", -- x2
+                [7] = "LocalPlayer", -- x2
+                [8] = "Name",
+                [9] = "PlaceId",
+                [10] = "&userId=",
+                [11] = "&player=",
+                [12] = "/api/v1/delta-debug?executor=",
+                [13] = "https://banana-hub.xyz",
+                [14] = "task",
+                [15] = "spawn",
+                [16] = "UserId",
+            },
+            proto_references = {
+                [0] = { proto = 157 },
+            },
+        },
+        [135] = {
+            parent = 94,
+            strings = {
+                [0] = "Body",
+                [1] = "statusCode",
+                [2] = "Success",
+                [3] = "tick", -- x4
+                [4] = "pcall",
+                [5] = "elapsed", -- x2
+                [6] = "body", -- x2
+                [7] = "request returned too fast before freeze",
+                [8] = "url", -- x2
+                [9] = "success",
+                [10] = "request pcall failed",
+                [11] = "StatusCode",
+            },
+            proto_references = {
+                [0] = { proto = 158 },
+            },
+        },
+        [136] = {
+            parent = 94,
+            strings = {
+                [0] = "om",
+            },
+            byte_sequences = {
+                [0] = { hex = "cb" },
+            },
+        },
+        [137] = {
+            parent = 94,
+            strings = {
+                [0] = "string",
+                [1] = "format",
+                [2] = "%02X",
+            },
+        },
+        [138] = {
+            parent = 94,
+            strings = {
+                [0] = "string",
+                [1] = "byte",
+                [2] = "",
+            },
+            byte_sequences = {
+                [0] = { hex = "45e8" },
+                [1] = { hex = "fd74d0" },
+            },
+        },
+        [139] = {
+            parent = 94,
+            strings = {
+                [0] = "gsub",
+                [1] = ".",
+                [2] = "inv256", -- x3
+                [3] = ">}",
+            },
+            proto_references = {
+                [0] = { proto = 159 },
+            },
+            byte_sequences = {
+                [0] = { hex = "834c591ef2" },
+            },
+        },
+        [140] = {
+            parent = 94,
+            strings = {
+                [0] = "&b=",
+                [1] = "/api/v1/ivhpxfzersxt?a=",
+                [2] = "elapsed", -- x2
+                [3] = "StatusCode",
+                [4] = "statusCode",
+                [5] = "Success",
+                [6] = "success",
+                [7] = "Body", -- x2
+                [8] = "body", -- x2
+                [9] = "game", -- x3
+                [10] = "auth request returned nil",
+                [11] = "url", -- x2
+                [12] = "tick", -- x3
+                [13] = "Players", -- x3
+                [14] = "LocalPlayer", -- x3
+                [15] = "tostring",
+                [16] = "Fail convert, retry execute! ",
+                [17] = "Random",
+                [18] = "new",
+                [19] = "NextNumber",
+                [20] = "pcall", -- x2
+                [21] = "Kick", -- x2
+                [22] = "&e=",
+                [23] = "&d=",
+                [24] = "&c=",
+                [25] = "print", -- x2
+                [26] = "[wl bye van do]: whitelisted, load %s second",
+                [27] = "format",
+                [28] = "delay",
+                [29] = "Name",
+                [30] = "[wl bye van do]: checking...",
+                [31] = "Whitelist request failed, retry execute!",
+                [32] = "https://banana-hub.xyz",
+                [33] = "task",
+                [34] = "fail convert response body",
+            },
+            booleans = {
+                [0] = true, -- x2
+                [1] = false,
+            },
+            proto_references = {
+                [0] = { proto = 160 },
+                [1] = { proto = 161 },
+            },
+            byte_sequences = {
+                [0] = { hex = "14" },
+            },
+        },
+        [141] = {
+            parent = 94,
+            strings = {
+                [0] = "string", -- x2
+                [1] = "sub", -- x2
+                [2] = "", -- x2
+                [3] = "<i8",
+            },
+            opaque_ascii = {
+                [0] = " >=>j>>b ==x= B<",
+            },
+            byte_sequences = {
+                [0] = { hex = "a100000000000000" },
+            },
+        },
+        [142] = {
+            parent = 94,
+            strings = {
+                [0] = "string",
+                [1] = "sub",
+                [2] = "0123456789abcdef",
+                [3] = "0",
+                [4] = "", -- x2
+                [5] = "math", -- x2
+                [6] = "floor",
+                [7] = ">i8",
+                [8] = "00",
+                [9] = "fmod",
+            },
+            byte_sequences = {
+                [0] = { hex = "0000000000000011" },
+            },
+        },
+        [143] = {
+            parent = 100,
+            strings = {
+                [0] = "JSONDecode",
+                [1] = "{}",
+            },
+        },
+        [144] = {
+            parent = 101,
+            strings = {
+                [0] = "HumanoidStateType",
+                [1] = "EnumItem",
+                [2] = "ChangeState",
+            },
+            byte_sequences = {
+                [0] = { hex = "8f" },
+                [1] = { hex = "2597" },
+            },
+        },
+        [145] = {
+            parent = 101,
+            strings = {
+                [0] = "warn",
+                [1] = "Change State of Humanoid Error: ",
+            },
+            byte_sequences = {
+                [0] = { hex = "0e28" },
+            },
+        },
+        [146] = {
+            parent = 104,
+            strings = {
+                [0] = "Get",
+                [1] = "Functions",
+                [2] = "Retry",
+                [3] = "Add",
+                [4] = "wait",
+            },
+            byte_sequences = {
+                [0] = { hex = "ca21f3d311" },
+                [1] = { hex = "3eb14c" },
+            },
+        },
+        [147] = {
+            parent = 107,
+            strings = {
+                [0] = "JSONEncode",
+            },
+        },
+        [148] = {
+            parent = 107,
+            strings = {
+                [0] = "tostring", -- x2
+                [1] = "warn",
+                [2] = "[Data Saved]: \"%s\" = %s",
+                [3] = "format",
+            },
+            opaque_ascii = {
+                [0] = "<=l>T=i5>l=",
+            },
+        },
+        [149] = {
+            parent = 107,
+            strings = {
+                [0] = "warn",
+                [1] = "[Failed to write %s: %s",
+                [2] = "format",
+                [3] = "tostring",
+            },
+        },
+        [150] = {
+            parent = 116,
+            strings = {
+                [0] = "Farm",
+                [1] = "Auto Farm",
+            },
+        },
+        [151] = {
+            parent = 116,
+            strings = {
+                [0] = "Farm",
+                [1] = "Auto Farm",
+            },
+        },
+        [152] = {
+            parent = 116,
+            strings = {
+                [0] = "Farm",
+                [1] = "Auto Farm",
+            },
+        },
+        [153] = {
+            parent = 131,
+            strings = {
+                [0] = " B",
+                [1] = "application/json",
+                [2] = "Content-Type",
+                [3] = "Headers",
+                [4] = "Body",
+                [5] = "https://discord.com/api/webhooks/1504064385297944677/wFetQzD57-BYNqPJU5_fMT7ERVEIrAX1ut3KtiizBKn04VJgXVSWHVriChDVUxhzYmME",
+                [6] = "Url",
+                [7] = "POST",
+                [8] = "Method",
+            },
+            byte_sequences = {
+                [0] = { hex = "04d357c4" },
+            },
+        },
+        [154] = {
+            parent = 131,
+            strings = {
+                [0] = "identifyexecutor",
+            },
+        },
+        [155] = {
+            parent = 132,
+            strings = {
+                [0] = "<i8", -- x2
+                [1] = "identifyexecutor",
+            },
+            opaque_ascii = {
+                [0] = "=l =>d >>",
+            },
+            byte_sequences = {
+                [0] = { hex = "8901000000000000" },
+                [1] = { hex = "0000000000000000" },
+            },
+        },
+        [156] = {
+            parent = 133,
+            strings = {
+                [0] = "string", -- x2
+                [1] = "byte",
+                [2] = "format",
+                [3] = "%%%02X",
+            },
+            opaque_ascii = {
+                [0] = "= >L>I=",
+            },
+        },
+        [157] = {
+            parent = 134,
+            strings = {
+                [0] = "pcall",
+            },
+            proto_references = {
+                [0] = { proto = 162 },
+            },
+        },
+        [158] = {
+            parent = 135,
+            strings = {
+                [0] = "x-executor",
+                [1] = "Headers", -- x2
+                [2] = "tick", -- x3
+                [3] = "identifyexecutor", -- x2
+                [4] = "find", -- x2
+                [5] = "elapsed", -- x3
+                [6] = "StatusCode", -- x4
+                [7] = "statusCode", -- x3
+                [8] = "Success", -- x4
+                [9] = "request failed before freeze",
+                [10] = "url", -- x3
+                [11] = "Body", -- x4
+                [12] = "game",
+                [13] = "Players",
+                [14] = "LocalPlayer",
+                [15] = "Kick",
+                [16] = "auth returned 403",
+                [17] = "ExploitReq",
+                [18] = "Url",
+                [19] = "GET",
+                [20] = "Method",
+                [21] = "success", -- x3
+                [22] = "body", -- x3
+                [23] = "8",
+                [24] = "response missing headers before freeze",
+                [25] = "Swift",
+                [26] = "Sonar",
+            },
+            byte_sequences = {
+                [0] = { hex = "ac36ca" },
+                [1] = { hex = "f0" },
+                [2] = { hex = "fc" },
+            },
+        },
+        [159] = {
+            parent = 139,
+            strings = {
+                [0] = "inv256",
+                [1] = "byte",
+                [2] = ">i8",
+            },
+            opaque_ascii = {
+                [0] = ">=B< j>",
+            },
+            byte_sequences = {
+                [0] = { hex = "2b1597" },
+                [1] = { hex = "000000000000001e" },
+            },
+        },
+        [160] = {
+            parent = 140,
+            strings = {
+                [0] = "Body",
+                [1] = "-",
+            },
+        },
+        [161] = {
+            parent = 140,
+            strings = {
+                [0] = "auth request timeout after checking",
+                [1] = "url",
+                [2] = "tick",
+                [3] = "elapsed",
+                [4] = ">i8",
+            },
+            byte_sequences = {
+                [0] = { hex = "00000000000000a4" },
+            },
+        },
+        [162] = {
+            parent = 157,
+            strings = {
+                [0] = "GET",
+                [1] = "Method",
+                [2] = "x-executor",
+                [3] = "Headers",
+                [4] = "Url",
+            },
+            opaque_ascii = {
+                [0] = ">i<= <",
+            },
+        },
+    },
+}
